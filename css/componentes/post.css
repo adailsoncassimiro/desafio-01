@@ -1,0 +1,55 @@
+.post {
+  background: #FFF;
+  padding: 24px;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  flex-direction: column;
+  max-width: 900px;
+  width: 100%;
+}
+
+.post:last-of-type {
+  margin-bottom: 0;
+  background: red;
+}
+
+.post .post__topo {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.post .post__topo .data {
+  color: #717171;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  height: 20px;
+  width: 109px;
+}
+
+.post .post__topo .like {
+  cursor: pointer;
+}
+
+.post .post__conteudo strong {
+  color: #1A202C;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.post .post__conteudo p {
+  color: #717171;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
