@@ -39,6 +39,7 @@
   font-family: 'Inter', sans-serif;
   color: #fff;
 }
+
 .header__pesquisa input[type="text"]::placeholder{
   color: rgba(255, 255, 255 , .5);
 }
@@ -49,4 +50,24 @@
   background: transparent;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 920px) {
+  .header{
+    height: 200px;
+    padding: 48px 20px;
+  }
+
+  .header__pesquisa{
+    height: 40px;
+  }
+
+  .header__pesquisa input[type="text"]{
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .header__pesquisa button{
+    padding: 0 9px;
+  }
 }
