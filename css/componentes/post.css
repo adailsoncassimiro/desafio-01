@@ -1,13 +1,13 @@
 .post {
   background: #FFF;
-  padding: 24px;
+  padding: 24px 0;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 50px;
   border-radius: 5px;
   flex-direction: column;
-  max-width: 900px;
   width: 100%;
+  max-width: 900px;
 }
 
 article:last-of-type {
@@ -15,16 +15,17 @@ article:last-of-type {
 }
 
 .post .post__topo {
-  margin: 0 auto;
+  margin: 0;
   width: 100%;
   max-width: 900px;
+  margin-bottom: 22px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 22px;
 }
 
 .post .post__topo .data {
   color: #717171;
+  margin: 0 24px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -32,27 +33,33 @@ article:last-of-type {
 
 .post .post__topo .like {
   cursor: pointer;
+  margin: 0 24px;
 }
 
 .post .post__conteudo strong {
   color: #1A202C;
-  margin-bottom: 8px;
+  margin: 0 24px 8px 24px;
   display: block;
   font-weight: 400;
   font-size: 26px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .post .post__conteudo p {
   color: #717171;
-  margin: 0;
+  margin: 0 24px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 920px) {
   .post {
-    padding: 16px;
+    padding: 16px 0;
+    margin-bottom: 25px;
   }
 
   .post .post__topo {
@@ -60,16 +67,23 @@ article:last-of-type {
   }
 
   .post .post__topo .data {
+    margin: 0 15px;
     font-size: 14px;
     max-width: 100%;
   }
 
+  .post .post__topo .like {
+    cursor: pointer;
+    margin: 0 15px;
+  }
+
   .post .post__conteudo strong {
-    margin-bottom: 9px;
+    margin: 0 15px 9px 15px;
     font-size: 18px;
   }
 
   .post .post__conteudo p {
+    margin: 0 15px;
     font-size: 14px;
   }
 }
